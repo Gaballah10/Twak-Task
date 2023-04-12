@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tawk Task</string>
+    <string name="search">Search ...</string>
+    <string name="add_note">Add Note ...</string>
+    <string name="search_tip">Please Insert More than 3 Character To search...</string>
+    <string name="network_messege_alert">\"Please Check Your Network Connection :( \"</string>
+    <string name="no_items">Sorry No Item Exist...</string>
+    <string name="added_successfully">\"Data Added Successfully .. \"</string>
+    <string name="no_internet_connections">No Internet Connections</string>
+    <string name="note_saved">Note Saved Successfully</string>
+</resources>
