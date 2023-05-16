@@ -23,7 +23,6 @@ android {
         }
 
         buildConfigField "String", "BASE_URL", '"https://api.github.com/"'
-        buildConfigField "String", "AUTHORIZATION", '"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"'
     }
 
     buildTypes {

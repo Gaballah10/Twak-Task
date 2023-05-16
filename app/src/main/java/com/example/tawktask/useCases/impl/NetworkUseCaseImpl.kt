@@ -6,7 +6,6 @@ import com.example.tawktask.network.model.GithubUser
 import com.example.tawktask.network.util.DataOrException
 import com.example.tawktask.useCases.NetworkUseCase
 import io.reactivex.Single
-import retrofit2.Response
 import javax.inject.Inject
 
 class NetworkUseCaseImpl@Inject constructor(private val githubApiService: GithubApiService) : NetworkUseCase {
