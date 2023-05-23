@@ -20,7 +20,7 @@ object NetworkUtil {
         val interceptor = Interceptor { chain ->
             val original: Request = chain.request()
             val request: Request = original.newBuilder()
-                .header("Authorization", "Bearer ${BuildConfig.ACCESS_TOKEN}")
+               // .header("authorization", "Bearer ${BuildConfig.ACCESS_TOKEN}")
                 .build()
             chain.proceed(request)
         }
