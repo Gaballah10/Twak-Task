@@ -1,5 +1,6 @@
 package com.example.tawktask.network.util
 
+import com.example.tawktask.BuildConfig
 import com.squareup.moshi.Moshi
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
@@ -19,6 +20,7 @@ object NetworkUtil {
         val interceptor = Interceptor { chain ->
             val original: Request = chain.request()
             val request: Request = original.newBuilder()
+                .header("Authorization", "Bearer ${BuildConfig.ACCESS_TOKEN}")
                 .build()
             chain.proceed(request)
         }

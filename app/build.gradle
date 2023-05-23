@@ -23,6 +23,7 @@ android {
         }
 
         buildConfigField "String", "BASE_URL", '"https://api.github.com/"'
+        buildConfigField "String", "ACCESS_TOKEN", '"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"'
     }
 
     buildTypes {
